@@ -1,0 +1,11 @@
+[project]
+name = "pdf-reader-with-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai-agents>=0.0.16",
+    "pymupdf>=1.26.0",
+    "streamlit>=1.45.1",
+]
